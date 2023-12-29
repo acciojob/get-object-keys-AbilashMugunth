@@ -3,8 +3,8 @@ const student = {
 };
 
 
-Object.prototype.getKeys = function (obj) {
-  return Object.keys(obj).map((key) => key);
+Object.prototype.getKeys = function () {
+	 return Object.keys(this)
 };
 
 Object.getKeys(student);
