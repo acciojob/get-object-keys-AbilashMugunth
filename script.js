@@ -4,5 +4,5 @@ const student = {
 
 
 Object.prototype.getKeys = function (obj) {
-  return Object.keys(obj);
+  return Object.keys(obj).map((key) => key);
 };
